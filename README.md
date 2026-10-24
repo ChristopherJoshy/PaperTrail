@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:082f49,35:0f766e,70:14b8a6,100:99f6e4&height=190&section=header&text=Paper%20Trail&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Preserve%20the%20evidence%20behind%20an%20image.&descAlignY=58&descSize=17" alt="Paper Trail animated header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:082f49,35:0f766e,70:14b8a6,100:99f6e4&height=190&section=header&text=PaperTrail&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Preserve%20the%20evidence%20behind%20an%20image.&descAlignY=58&descSize=17" alt="PaperTrail animated header" />
 
   <p>
     <img src="https://img.shields.io/badge/Next.js-15-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -11,7 +11,7 @@
 
 ## 🧾 What it does
 
-Paper Trail is an image-investigation prototype built around evidence integrity. It organizes an investigation, records discovered media and related evidence, fingerprints the evidence set, and can anchor or verify that fingerprint with an Ethereum contract.
+PaperTrail is an image-investigation prototype built around evidence integrity. It organizes an investigation, records discovered media and related evidence, fingerprints the evidence set, and can anchor or verify that fingerprint with an Ethereum contract.
 
 Image matching is a discovery aid. A match is not proof of who created or depicted an image, and the product should not be treated as biometric identification.
 
@@ -52,7 +52,7 @@ flowchart LR
 Requires Node.js 20+ and npm.
 
 ```bash
-git clone https://github.com/ChristopherJoshy/paper-trail.git
+git clone https://github.com/ChristopherJoshy/PaperTrail.git
 cd paper-trail
 npm ci
 cp .env.example .env
